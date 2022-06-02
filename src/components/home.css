@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    width:100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.home-container {
+    background: url('/home/araam/BusinessCard/card/public/metabg.jpg') no-repeat center;
+    background-size: cover;
+    height: calc(100vh - 4em);
+}
+
+.intro {
+    color: #fff;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 35px;
+}
